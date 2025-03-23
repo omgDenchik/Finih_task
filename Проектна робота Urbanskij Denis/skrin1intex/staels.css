@@ -1,0 +1,111 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  background-image: url("img/nebo.jpg");
+}
+
+.img p {
+  margin: 0 auto;
+}
+
+.name {
+  font-family: Comic Sans MS;
+  font-size: 40px;
+  color: white;
+  margin: auto;
+}
+.name b {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.name2 {
+  font-family: Comic Sans MS;
+  font-size: 15px;
+  color: red;
+  margin: auto;
+}
+.name2 b {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.table {
+  max-width: 100%;
+  flex: 0 0 calc(50% - 20px);
+}
+
+.tabl_th {
+  height: 50px;
+}
+
+.the_first {
+  size: 5;
+  color: white;
+  font-family: Monospace;
+}
+.the_first table {
+  margin: 3px;
+  size: 5;
+  border-color: white;
+  color: white;
+  font-family: Monospace;
+  min-width: 620px;
+  min-height: 265px;
+}
+
+.the_second {
+  size: 5;
+  color: white;
+  font-family: Monospace;
+}
+.the_second table {
+  margin: 3px;
+  size: 5;
+  border-color: white;
+  color: white;
+  font-family: Monospace;
+  min-width: 620px;
+  min-height: 265px;
+}
+
+.bread_products {
+  size: 5;
+  color: white;
+  font-family: Monospace;
+}
+.bread_products table {
+  margin: 3px;
+  size: 5;
+  border-color: white;
+  color: white;
+  font-family: Monospace;
+  min-width: 620px;
+  min-height: 265px;
+}
+
+.drinks {
+  size: 5;
+  color: white;
+  font-family: Monospace;
+}
+.drinks table {
+  margin: 3px;
+  size: 5;
+  border-color: white;
+  color: white;
+  font-family: Monospace;
+  min-width: 620px;
+  min-height: 265px;
+}
